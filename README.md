@@ -24,7 +24,7 @@ index.php?a=h87h8n987y9876t9bn6t9nb76t76tb7gftxs
 
 index.php?a=h87h8n987y9876t9bn6t9mb76t76tb7gftxs
 
-...so patterny will generate tow very different patterns, even though only one charachter has been changed:
+Even though the strings are almost identical, patterny will generate two very different images, even though only one charachter has been changed:
 
 ![image](https://user-images.githubusercontent.com/21079244/220490348-91c64ae3-67a7-4695-bb2f-8ba499f5abd5.png)
 
