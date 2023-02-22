@@ -1,5 +1,5 @@
-# patterny image generator
-Generates patterns as PNGs from any string. Useful for visually comparing two long strings to see if they are the same(like a bitcoin address)
+# Patterny image generator
+Generates patterns as PNGs from any string. Useful for visually comparing two long strings to see if they are the same (like bitcoin addresses so you can see if one was tampered with or mistyped, or miscopied).
 
 # How to call directly
 call index.php with index.php?a=your-text-goes-here 
