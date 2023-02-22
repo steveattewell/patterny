@@ -25,10 +25,12 @@ index.php?a=h87h8n987y9876t9bn6t9mb76t76tb7gftxs
 ![image](https://user-images.githubusercontent.com/21079244/220490419-3f41be8a-a0fa-4a4d-87ae-a78b96511163.png)
 
 # options
-### a
-You must include a querystring parameter called 'a'. e.g. ?a=your-text-here ... 
+### a (required)
+A string of letters that you want to turn into a pattern. 
+e.g. index.php?a=mybitcoinaddress87y8ho8ybou7ytg7tcxstwv07f97tcvug 
 
-## You may also optinally include 
+
+## You may also (optinally) include 
 ### pizelsize 
 e.g. pixelsize=10
 Pixelate the image. pizelsize is the size of each 'custom' pixel (in real pxels!) between 1 and 60
@@ -39,7 +41,7 @@ the number of 'custom' pixels wide the image should be. Images will be constrain
 
 ### hashfunction 
 (not recommended at the mo as anything other than crc32 results in images that can be more difficult to tell apart)
-e.g. hasfunction=md5
+e.g. hashfunction=md5
 Can be one of:  'crc32', 'md5', 'sha1', 'sha256', 'sha512'
 Defaults to 'crc32'.
 
