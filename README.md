@@ -58,4 +58,4 @@ Can be one of:  'crc32', 'md5', 'sha1', 'sha256', 'sha512'
 Defaults to 'crc32'.
 
 ## Putting it all together
-```index.php?a=put-your-text-here&pixelsize=20&iagesize=20 ```
+```index.php?a=put-your-text-here&pixelsize=20&imagesize=20 ```
