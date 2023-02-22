@@ -3,7 +3,9 @@ Generates patterns as PNGs from any string. Useful for visually comparing two lo
 
 # How to call directly
 call index.php with index.php?a=your-text-goes-here 
+
 and this image will be returned:
+
 ![image](https://user-images.githubusercontent.com/21079244/220489934-8b7e36d9-0fe7-4ca4-9fae-22028491dc01.png)
 
 # Use in an img tag:
@@ -17,11 +19,15 @@ https://steveattewell.com/patterny/index.php?a=h87h8n987y9876t9bn6t9mb76t76tb7gf
 
 # Useful for visually comparing two strings (like bitcoin addresses)
 These strings look the same, but are subtly different...
+
 index.php?a=h87h8n987y9876t9bn6t9nb76t76tb7gftxs
+
 index.php?a=h87h8n987y9876t9bn6t9mb76t76tb7gftxs
 
 ...so patterny will generate tow very different patterns, even though only one charachter has been changed:
+
 ![image](https://user-images.githubusercontent.com/21079244/220490348-91c64ae3-67a7-4695-bb2f-8ba499f5abd5.png)
+
 ![image](https://user-images.githubusercontent.com/21079244/220490419-3f41be8a-a0fa-4a4d-87ae-a78b96511163.png)
 
 # options
