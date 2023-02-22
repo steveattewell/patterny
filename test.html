@@ -1,12 +1,69 @@
-<p>Some strings that look the same, but mostly arean't!</p>
-<p>Can you spot the two images that are the same?</p>
-<img src="index.php?a=iytf865rvr665rv65rv7trfv86tf675">
-<img src="index.php?a=iytf865rvr665rv65rv7trfv86tf675">
-<img src="index.php?a=iytf865rvr66Srv65rv7trfv86tf675">
-<img src="index.php?a=iytf865rvr66Srv65rv7trfv86tf675">
-<img src="index.php?a=iutf865rvr665rv65rv7trfv86tf675">
-<img src="index.php?a=1ytf865rvr665rv65rv7trfv86tf675">
-<img src="index.php?a=iytf865rvr665rv65rv7trfvB6tf675">
-<img src="index.php?a=iytf865rvr665rv65rv7trfvB6tf675">
-<img src="index.php?a=iytf865rvr665rv6Srv7trfu86tf675">
-<img src="index.php?a=iytf865rvr665rv6Srv7trfu86tf675">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Work+Sans:wght@300;400&display=swap');
+        body{
+            font-family: 'Work Sans';
+            font-size: 1.4em;
+            text-align: center;
+        }
+
+        input, button{
+            font-size: 1.4em;
+            font-family: 'PT Mono';
+            margin:0.2em;
+            padding: 8px 12px;
+            border-radius: 5px;
+            border-width: 3px;
+        }
+        input{
+            width:80%;
+            max-width: 800px;
+        }
+
+    </style>
+  </head>
+  <body>
+    <h1>Patterny</h1>
+    <p>Enter any text to generate a pattern</p>
+    <p><input type="text" name="string" id="string" value="example"><br><button id="generate">Generate pattern</button></p>
+    <p><img id="pattern" src="index.php?a=example"></p>
+    <p><a href="https://github.com/steveattewell/patterny" target="_blank">Github + more info</a></p>
+
+
+	<script>
+        const imgSrc = "index.php?a=";
+        // Get references to the input and image elements
+        const stringInput = document.getElementById("string");
+        const patternImage = document.getElementById("pattern");
+
+        // Get a reference to the button element and add an onclick event handler
+        const button = document.getElementById("generate");
+        button.onclick = function() {
+            // Get the value of the input element
+            const inputValue = encodeURI(stringInput.value);
+
+            // Update the src attribute of the image element with the input value
+            
+            patternImage.src = imgSrc + inputValue;
+        };
+
+        // Add an event listener to the input field that fires the button's onclick event when the "Enter" key is pressed
+        stringInput.addEventListener("keyup", function(event) {
+            if (event.key === "Enter") {
+                // Cancel the default action of the "Enter" key (i.e. submitting the form)
+                event.preventDefault();
+
+                // Fire the button's onclick event
+                button.click();
+            }
+        });
+
+    </script>
+  </body>
+</html>
