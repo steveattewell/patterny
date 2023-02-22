@@ -38,7 +38,7 @@ A string of letters that you want to turn into a pattern.
 e.g. **index.php?a=mybitcoinaddress87y8ho8ybou7ytg7tcxstwv07f97tcvug** 
 
 
-## You may also (optinally) include 
+## You may also (optionally) include 
 ### pizelsize 
 e.g. **pixelsize=10**
 Pixelate the image. pizelsize is the size of each 'custom' pixel (in real pxels!) between 1 and 60
@@ -53,5 +53,5 @@ e.g. **hashfunction=md5**
 Can be one of:  'crc32', 'md5', 'sha1', 'sha256', 'sha512'
 Defaults to 'crc32'.
 
-##Putting it all together
-```index.php?a=put-your-text-here&pixelsize=20&iagesize=20```
+## Putting it all together
+```index.php?a=put-your-text-here&pixelsize=20&iagesize=20 ```
