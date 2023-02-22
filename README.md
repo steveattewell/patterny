@@ -41,7 +41,7 @@ Even though the strings are almost identical, patterny will generate two very di
 
 ![image](https://user-images.githubusercontent.com/21079244/220490419-3f41be8a-a0fa-4a4d-87ae-a78b96511163.png)
 
-# options
+# QueryString options
 ### a (required)
 A string of letters that you want to turn into a pattern. 
 e.g. **index.php?a=mybitcoinaddress87y8ho8ybou7ytg7tcxstwv07f97tcvug** 
